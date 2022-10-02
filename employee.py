@@ -1,9 +1,5 @@
 """Employee pay calculator."""
 """ENTER YOUR SOLUTION HERE!"""
-
-from sqlite3.dbapi2 import _Statement
-
-
 class Employee:
     def __init__(self, name, pay, payCount, bonus, bonusCount):
         self.name = name
