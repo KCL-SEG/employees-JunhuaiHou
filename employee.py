@@ -21,9 +21,9 @@ class Employee:
         if(self.bonusCount == 0):
             statement += "."
         elif(self.bonusCount == 1):
-            statement += f" and receives a bonus commision of {self.bonus}."
+            statement += f" and receives a bonus commission of {self.bonus}."
         else:
-            statement += f" and receives a commision for {self.bonusCount} contract(s) at {self.bonus}/contract."
+            statement += f" and receives a commission for {self.bonusCount} contract(s) at {self.bonus}/contract."
     
         statement += f"  Their total pay is {self.get_pay()}."
 
