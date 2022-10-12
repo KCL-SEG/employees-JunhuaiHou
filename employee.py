@@ -29,10 +29,7 @@ class Employee:
 
         return statement
 
-
-
-
-# Billie works on a monthly salary of 4000.  Their total pay is 4000.
+    # Billie works on a monthly salary of 4000.  Their total pay is 4000.
 billie = Employee('Billie', 4000, 1, 0, 0)
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
